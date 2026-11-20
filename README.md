@@ -1,72 +1,51 @@
-Here is a clean, standard, well-structured `README.md` tailored to your portfolio and current tech stack. Copy and save it as `README.md` in the root of your repository:
-
-```markdown
-# Nur Nahian Nahin — Full-Stack AI & Automation Engineer Portfolio
-
+Nur Nahian Nahin — Full-Stack AI & Automation Engineer Portfolio
 Personal portfolio website showcasing production AI automation systems, Human-in-the-Loop (HITL) workflows, FastAPI backends, and full-stack web applications.
 
-## Tech Stack
+Tech Stack
+Framework: Next.js (App Router), React, TypeScript
 
-- **Framework:** Next.js (App Router), React, TypeScript
-- **Styling & UI:** Tailwind CSS, shadcn/ui, React Icons
-- **Theme & Typography:** `next-themes` (Dark/Light mode), Geist & Inter fonts
-- **Deployment:** Vercel
+Styling & UI: Tailwind CSS, shadcn/ui, React Icons
 
-## Key Highlights
+Theme & Typography: next-themes (Dark/Light mode), Geist & Inter fonts
 
-- **Two-Tiered Architecture:** Separates primary **Full-Stack AI & Automation Systems** (n8n, FastAPI, PostgreSQL, React) from foundational **Full-Stack Web Applications** (Next.js, Supabase, Node.js, MongoDB).
-- **Flagship Case Study:** Features **NorthStar Ops — ApproveFlow AI**, an end-to-end B2B lead triage and email approval pipeline.
-- **Responsive & Accessible:** Optimized across mobile, tablet, and desktop viewports with seamless dark/light theme switching.
+Deployment: Vercel
 
-## Getting Started
+Key Highlights
+Two-Tiered Architecture: Separates primary Full-Stack AI & Automation Systems (n8n, FastAPI, PostgreSQL, React) from foundational Full-Stack Web Applications (Next.js, Supabase, Node.js, MongoDB).
 
-### Prerequisites
+Flagship Case Study: Features NorthStar Ops — ApproveFlow AI, an end-to-end B2B lead triage and email approval pipeline.
 
-- Node.js 18+
-- npm, yarn, pnpm, or bun
+Responsive & Accessible: Optimized across mobile, tablet, and desktop viewports with seamless dark/light theme switching.
 
-### Installation
+Getting Started
+Prerequisites
+Node.js 18+
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/nurnahiannahin/portfolio1.git](https://github.com/nurnahiannahin/portfolio1.git)
-   cd portfolio1
+npm, yarn, pnpm, or bun
 
-```
+Installation
+Clone the repository:
 
-2. **Install dependencies:**
-```bash
+Bash
+git clone https://github.com/nurnahiannahin/portfolio1.git
+cd portfolio1
+Install dependencies:
+
+Bash
 npm install
+Run the development server:
 
-```
-
-
-3. **Run the development server:**
-```bash
+Bash
 npm run dev
+Open http://localhost:3000 in your browser.
 
-```
-
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
-
-```text
+Project Structure
+Plaintext
 ├── app/                  # Next.js App Router pages and global layout
 ├── components/           # Modular UI sections (Hero, Projects, Skills, About, Header, Footer)
 ├── public/               # Static assets, project screenshots, and CV/Resume PDF
 └── lib/                  # Utility functions and shared helpers
+Contact
+GitHub: @nurnahiannahin
 
-```
-
-## Contact
-
-* **GitHub:** [@nurnahiannahin](https://github.com/nurnahiannahin)
-* **Location:** Dhaka, Bangladesh
-
-```
-
-*(Once you deploy to Vercel and add your LinkedIn/email links, you can drop your live portfolio URL right at the top under the title.)*
-
-```
+Location: Dhaka, Bangladesh
